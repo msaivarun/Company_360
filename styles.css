@@ -5,6 +5,25 @@ body {
   background-color: white;
   height: 100%;
 }
+button{
+  height: 15px;
+  display: inline-block;
+  background: #959d95;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.carousel-indicators button.active {
+  background-color: black; /* Change the color to your preferred active color */
+}
+
+/* Additional style for the default button color */
+.carousel-indicators button {
+  background-color: gray; /* Change the color to your preferred default color */
+}
+/* .button--selected {
+  background: #f5f6f5;
+} */
 .card-title{
     padding-top: 40px;
     text-align: center;
